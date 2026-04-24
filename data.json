@@ -5,582 +5,640 @@
       "status": "In Review",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-04-13"
+      "dateIso": "2026-04-13",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Maintain Employee Bonus Register on greytHR",
       "status": "In Review",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-04-19"
+      "dateIso": "2026-04-19",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "How to Manage Employee Income Tax Declaration",
       "status": "In Review",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-04-20"
+      "dateIso": "2026-04-20",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Upsale Plan for Video",
       "status": "WIP",
       "owner": "Nazim",
       "type": "OT",
-      "dateIso": "2026-04-26"
+      "dateIso": "2026-04-26",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Make UTM Links and Update Yotube Discritpions",
       "status": "WIP",
       "owner": "Nazim",
       "type": "OT",
-      "dateIso": "2026-04-26"
+      "dateIso": "2026-04-26",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Declare Your Income Tax for 2026 with greytHR ESS Portal",
       "status": "WIP",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-04-26"
+      "dateIso": "2026-04-26",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "GeoTracking Demo",
       "status": "WIP",
       "owner": "Nazim",
       "type": "Demo",
-      "dateIso": "2026-04-27"
+      "dateIso": "2026-04-27",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Declare income tax on behalf of an employee",
       "status": "Done",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-02-12"
+      "dateIso": "2026-02-12",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "View and Override Employees' Shift Schedule (Shift Roster)",
       "status": "Done",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-04-01"
+      "dateIso": "2026-04-01",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "View Organization Hierarchy (Organization Chart) on greytHR",
       "status": "Done",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-04-06"
+      "dateIso": "2026-04-06",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Process Full and Final Settlement for Resigned Employee on greytHR",
       "status": "Done",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-04-09"
+      "dateIso": "2026-04-09",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "EIM Short PEV",
       "status": "Done",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2026-04-22"
+      "dateIso": "2026-04-22",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "PMS Short PEV",
       "status": "Done",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2026-04-22"
+      "dateIso": "2026-04-22",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Recruit Short PEV",
       "status": "Done",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2026-04-22"
+      "dateIso": "2026-04-22",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Letter Module Annoucement",
       "status": "Done",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2026-04-22"
+      "dateIso": "2026-04-22",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "IT Changes PEV",
       "status": "Done",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2026-04-22"
+      "dateIso": "2026-04-22",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Enployee profile",
       "status": "YTD",
       "owner": "Vishnu",
       "type": "JTBD",
-      "dateIso": "2026-04-28"
+      "dateIso": "2026-04-28",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Digital Signature (Letter Module)",
       "status": "YTD",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2026-04-30"
+      "dateIso": "2026-04-30",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Manage Team's Attendance Requests on greytHR's ESS Portal",
       "status": "YTD",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": ""
+      "dateIso": "",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Create and Release FBP Declaration for Employees on greytHR",
       "status": "YTD",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": ""
+      "dateIso": "",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Declare FBP on Behalf of an Employee using greytHR",
       "status": "YTD",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": ""
+      "dateIso": "",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Review Proof of Investment POI Submissions on greytHR",
       "status": "YTD",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": ""
+      "dateIso": "",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Add/Edit employee's position history details Revamp",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2025-12-04"
+      "dateIso": "2025-12-04",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Add/Edit employee's access card details",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2025-12-05"
+      "dateIso": "2025-12-05",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Newsletter (November)",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "JTBD",
-      "dateIso": "2025-12-09"
+      "dateIso": "2025-12-09",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Process leave year end activities automatically revamp",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2025-12-10"
+      "dateIso": "2025-12-10",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Add/Edit employee's nomination details",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2025-12-16"
+      "dateIso": "2025-12-16",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Navos Anoucement",
       "status": "Closed",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2025-12-18"
+      "dateIso": "2025-12-18",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Mobile Trubleshoot",
       "status": "Closed",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2025-12-25"
+      "dateIso": "2025-12-25",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Create a holiday list",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2025-12-31"
+      "dateIso": "2025-12-31",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Bahasa Roadmap",
       "status": "Closed",
       "owner": "Nazim",
       "type": "OT",
-      "dateIso": "2026-01-05"
+      "dateIso": "2026-01-05",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Newsletter (December)",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "JTBD",
-      "dateIso": "2026-01-05"
+      "dateIso": "2026-01-05",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Youtube Report",
       "status": "Closed",
       "owner": "Nazim",
       "type": "OT",
-      "dateIso": "2026-01-06"
+      "dateIso": "2026-01-06",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Product Overview",
       "status": "Closed",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2026-01-08"
+      "dateIso": "2026-01-08",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Claim reimbursement on behalf of an employee",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-01-08"
+      "dateIso": "2026-01-08",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Customize POI settings",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-01-11"
+      "dateIso": "2026-01-11",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "GPS Live Tracker",
       "status": "Closed",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2026-01-13"
+      "dateIso": "2026-01-13",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Mobile Overview",
       "status": "Closed",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2026-01-15"
+      "dateIso": "2026-01-15",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "TAT",
       "status": "Closed",
       "owner": "Nazim",
       "type": "OT",
-      "dateIso": "2026-01-18"
+      "dateIso": "2026-01-18",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Content Callender",
       "status": "Closed",
       "owner": "Nazim",
       "type": "OT",
-      "dateIso": "2026-01-18"
+      "dateIso": "2026-01-18",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "View and edit income tax (IT) components",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-01-19"
+      "dateIso": "2026-01-19",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "LOP Video",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-01-20"
+      "dateIso": "2026-01-20",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Release and manage POI declaration",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-01-21"
+      "dateIso": "2026-01-21",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Retrospective LOP",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-01-21"
+      "dateIso": "2026-01-21",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Sample For Shorts",
       "status": "Closed",
       "owner": "Nazim",
       "type": "OT",
-      "dateIso": "2026-01-22"
+      "dateIso": "2026-01-22",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Get Super set Acess",
       "status": "Closed",
       "owner": "Nazim",
       "type": "OT",
-      "dateIso": "2026-01-22"
+      "dateIso": "2026-01-22",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Product Overview Bahasa",
       "status": "Closed",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2026-01-29"
+      "dateIso": "2026-01-29",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "How to track resignation Application",
       "status": "Closed",
       "owner": "Nazim",
       "type": "JTBD",
-      "dateIso": "2026-02-02"
+      "dateIso": "2026-02-02",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Letter module",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-02-02"
+      "dateIso": "2026-02-02",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Process Montly Payroll",
       "status": "Closed",
       "owner": "Nazim",
       "type": "JTBD",
-      "dateIso": "2026-02-03"
+      "dateIso": "2026-02-03",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Expense 5 Gif for web",
       "status": "Closed",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2026-02-04"
+      "dateIso": "2026-02-04",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "HIndi to English Shorts",
       "status": "Closed",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2026-02-04"
+      "dateIso": "2026-02-04",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Newsletter (Jan 26)",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-02-04"
+      "dateIso": "2026-02-04",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Verify employees' identity (ID) details",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-02-12"
+      "dateIso": "2026-02-12",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "View and Edit Employees Attendance Details (Attendance Muster)",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-02-17"
+      "dateIso": "2026-02-17",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "View and Edit Employee Basic Information",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-02-18"
+      "dateIso": "2026-02-18",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Upload Employee Data in Bulk",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-02-25"
+      "dateIso": "2026-02-25",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "View and Edit Employee Separation and Exit Details on greytHR",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-02-26"
+      "dateIso": "2026-02-26",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "How to update IBAN Number",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "JTBD",
-      "dateIso": "2026-02-28"
+      "dateIso": "2026-02-28",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "How to update MOL ID",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "JTBD",
-      "dateIso": "2026-03-01"
+      "dateIso": "2026-03-01",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "How to update Routing code",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "JTBD",
-      "dateIso": "2026-03-02"
+      "dateIso": "2026-03-02",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "How to update emirates ID under card details ME video",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "JTBD",
-      "dateIso": "2026-03-02"
+      "dateIso": "2026-03-02",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Mastering employee attendance",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-03-04"
+      "dateIso": "2026-03-04",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "February Newsletter",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "JTBD",
-      "dateIso": "2026-03-08"
+      "dateIso": "2026-03-08",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Declare FBP on greytHR's ESS Portal!",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-03-10"
+      "dateIso": "2026-03-10",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Mark and Track Employee Attendance Easily on greytHR",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-03-14"
+      "dateIso": "2026-03-14",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Leave year end process Revamp",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-03-17"
+      "dateIso": "2026-03-17",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "GPS Live Tracking",
       "status": "Closed",
       "owner": "Nazim",
       "type": "Demo",
-      "dateIso": "2026-03-23"
+      "dateIso": "2026-03-23",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Generate Employee Payslip after Processing Payroll on greytHR",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
-      "dateIso": "2026-03-23"
+      "dateIso": "2026-03-23",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "March Newsletter",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "JTBD",
-      "dateIso": "2026-04-07"
+      "dateIso": "2026-04-07",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Expense",
       "status": "Closed",
       "owner": "Nazim",
       "type": "PEV",
-      "dateIso": "2026-12-18"
-    },
-    {
-      "name": "Ensure Policy Acknowledgement during Employee Onboarding on greytHR - YouTube",
-      "status": "",
-      "owner": "Vishnu",
-      "type": "",
-      "dateIso": ""
-    },
-    {
-      "name": "Manage Team's Attendance Requests on greytHR's ESS Portal (Apply, Withdraw, and Track) - YouTube",
-      "status": "",
-      "owner": "Vishnu",
-      "type": "",
-      "dateIso": ""
-    },
-    {
-      "name": "Process Full and Final Settlement for Resigned Employee on greytHR - YouTube",
-      "status": "",
-      "owner": "Vishnu",
-      "type": "",
-      "dateIso": ""
-    },
-    {
-      "name": "Communicate with Employees using Mass Email or SMS on greytHR - YouTube",
-      "status": "",
-      "owner": "Vishnu",
-      "type": "",
-      "dateIso": ""
-    },
-    {
-      "name": "Maintain Employee Bonus Register on greytHR - YouTube",
-      "status": "",
-      "owner": "Vishnu",
-      "type": "",
-      "dateIso": ""
-    },
-    {
-      "name": "Submit Proof of Investment (POI) on greytHR's ESS portal!",
-      "status": "",
-      "owner": "Vishnu",
-      "type": "",
-      "dateIso": ""
-    },
-    {
-      "name": "How to Submit Proof of Investment on greytHR ESS Portal",
-      "status": "",
-      "owner": "Vishnu",
-      "type": "",
-      "dateIso": ""
-    },
-    {
-      "name": "Collect Employee's IT Declarations Details for Payroll on greytHR",
-      "status": "",
-      "owner": "Vishnu",
-      "type": "",
-      "dateIso": ""
-    },
-    {
-      "name": "Consider Proof of Investment (POI) for Payroll Processing on greytHR",
-      "status": "",
-      "owner": "Vishnu",
-      "type": "",
-      "dateIso": ""
-    },
-    {
-      "name": "How to Manage Employee Income Tax Declaration on greytHR - A Step-by-Step Guide",
-      "status": "",
-      "owner": "Vishnu",
-      "type": "",
-      "dateIso": ""
-    },
-    {
-      "name": "Declare Your Income Tax for 2025 with greytHR ESS Portal",
-      "status": "",
-      "owner": "Vishnu",
-      "type": "",
-      "dateIso": ""
-    },
-    {
-      "name": "Approve or Reject Employee Leave and Attendance Regularization Requests on greytHR",
-      "status": "",
-      "owner": "Vishnu",
-      "type": "",
-      "dateIso": ""
+      "dateIso": "2026-12-18",
+      "link": "",
+      "notes": ""
     }
   ],
-  "updatedAt": "2026-04-24T07:29:22.917Z"
+  "updatedAt": "2026-04-24T08:44:27.821Z"
 }
