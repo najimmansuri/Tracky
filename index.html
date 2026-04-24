@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-<title>Video Tracker</title>
+<title>Tracky</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&family=Epilogue:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -46,7 +46,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* ─── NOISE TEXTURE overlay ─── */
 body::after {
   content: '';
   position: fixed;
@@ -67,7 +66,7 @@ body::after {
   z-index: 1;
 }
 
-/* ─── HEADER ─── */
+/* ── HEADER ── */
 .hdr {
   padding: 32px 0 22px;
   border-bottom: 1px solid var(--border);
@@ -131,7 +130,7 @@ body::after {
   font-weight: 400;
 }
 
-/* ─── LOADING ─── */
+/* ── LOADING ── */
 .loading {
   display: flex;
   flex-direction: column;
@@ -158,7 +157,7 @@ body::after {
   text-transform: uppercase;
 }
 
-/* ─── SECTION LABEL ─── */
+/* ── SECTION LABEL ── */
 .slabel {
   font-family: 'JetBrains Mono', monospace;
   font-size: 9.5px;
@@ -172,7 +171,7 @@ body::after {
 }
 .slabel::after { content:''; flex:1; height:1px; background:var(--border); }
 
-/* ─── STATS ─── */
+/* ── STATS ── */
 .stats {
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -187,7 +186,6 @@ body::after {
   padding: 18px 16px 14px;
   position: relative;
   overflow: hidden;
-  cursor: default;
   transition: transform .15s, box-shadow .15s;
 }
 
@@ -247,7 +245,7 @@ body::after {
   color: var(--ghost);
 }
 
-/* ─── LAST SYNCED ─── */
+/* ── LAST SYNCED ── */
 .synced {
   font-family: 'JetBrains Mono', monospace;
   font-size: 9px;
@@ -258,7 +256,7 @@ body::after {
   text-transform: uppercase;
 }
 
-/* ─── PERSON HEAD ─── */
+/* ── PERSON HEAD ── */
 .person-row {
   display: flex;
   align-items: center;
@@ -300,7 +298,7 @@ body::after {
   border-radius: 4px;
 }
 
-/* ─── VIDEO CARD ─── */
+/* ── VIDEO CARD ── */
 .card {
   background: var(--card);
   border: 1px solid var(--border);
@@ -362,7 +360,6 @@ body::after {
   gap: 5px;
 }
 
-/* pill */
 .pill {
   font-family: 'JetBrains Mono', monospace;
   font-size: 9px;
@@ -403,7 +400,6 @@ body::after {
 .dtag-late { color: var(--red); font-weight: 500; }
 .dtag-soon { color: var(--amber); font-weight: 500; }
 
-/* chevron hint */
 .card-arrow {
   flex-shrink: 0;
   color: var(--ghost2);
@@ -427,11 +423,11 @@ body::after {
 
 .divider { height:1px; background:var(--border); margin:22px 0; }
 
-/* ─── MODAL OVERLAY ─── */
+/* ── MODAL OVERLAY ── */
 .overlay {
   position: fixed;
   inset: 0;
-  background: rgba(28,26,23,.55);
+  background: rgba(28,26,23,.5);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   z-index: 200;
@@ -448,13 +444,13 @@ body::after {
   pointer-events: all;
 }
 
-/* ─── DETAIL SHEET ─── */
+/* ── DETAIL SHEET ── */
 .sheet {
   width: 100%;
   max-width: 480px;
   background: var(--card);
   border-radius: 18px 18px 0 0;
-  padding: 0 0 40px;
+  padding: 0 0 44px;
   transform: translateY(32px);
   transition: transform .28s cubic-bezier(.32,.72,0,1);
   max-height: 88vh;
@@ -462,11 +458,8 @@ body::after {
   -webkit-overflow-scrolling: touch;
 }
 
-.overlay.show .sheet {
-  transform: translateY(0);
-}
+.overlay.show .sheet { transform: translateY(0); }
 
-/* drag handle */
 .sheet-handle {
   width: 36px; height: 4px;
   background: var(--border2);
@@ -476,20 +469,12 @@ body::after {
 
 .sheet-inner { padding: 0 20px; }
 
-/* status bar in sheet */
 .sheet-status {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 16px;
-}
-
-.sheet-type {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 10px;
-  color: var(--ghost);
-  text-transform: uppercase;
-  letter-spacing: .1em;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
 }
 
 .sheet-title {
@@ -499,15 +484,14 @@ body::after {
   letter-spacing: -.02em;
   line-height: 1.25;
   color: var(--ink);
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
-/* info rows */
 .info-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .info-cell {
@@ -530,9 +514,9 @@ body::after {
   font-size: 13px;
   font-weight: 500;
   color: var(--ink2);
+  word-break: break-word;
 }
 
-/* notes box */
 .notes-box {
   background: var(--canvas);
   border: 1px solid var(--border);
@@ -552,7 +536,6 @@ body::after {
 
 .notes-text {
   font-size: 13px;
-  font-weight: 400;
   color: var(--ink2);
   line-height: 1.55;
 }
@@ -567,7 +550,6 @@ body::after {
 .sheet-actions {
   display: flex;
   gap: 10px;
-  margin-top: 4px;
 }
 
 .btn {
@@ -586,6 +568,7 @@ body::after {
   cursor: pointer;
   transition: transform .15s, opacity .15s;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .btn:active { transform: scale(.97); }
@@ -609,11 +592,12 @@ body::after {
   color: var(--ghost2);
   border: 1px solid var(--border);
   cursor: not-allowed;
+  opacity: .7;
 }
 
 .btn-disabled:active { transform: none; }
 
-/* ─── ERROR ─── */
+/* ── WARN ── */
 .warn {
   background: var(--amber-bg);
   border: 1px solid var(--amber-bd);
@@ -627,7 +611,7 @@ body::after {
   letter-spacing: .04em;
 }
 
-/* ─── TABS ─── */
+/* ── TAB BAR ── */
 .tabbar {
   position: fixed;
   bottom: 0; left: 0; right: 0;
@@ -639,7 +623,7 @@ body::after {
 .tabs {
   width: 100%;
   max-width: 480px;
-  background: rgba(247,245,242,.94);
+  background: rgba(247,245,242,.95);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-top: 1px solid var(--border);
@@ -692,7 +676,7 @@ body::after {
       <div class="hdr-date" id="todayDate"></div>
       <div class="live-badge"><div class="live-dot"></div>Live</div>
     </div>
-    <div class="hdr-title">Video<br><span>Tracker</span></div>
+    <div class="hdr-title">Tracky<br><span>Video Tracker</span></div>
   </div>
 
   <div class="loading" id="loadingEl">
@@ -783,7 +767,7 @@ body::after {
   </nav>
 </div>
 
-<!-- Detail sheet -->
+<!-- Detail bottom sheet -->
 <div class="overlay" id="overlay" onclick="closeSheet(event)">
   <div class="sheet" id="sheet">
     <div class="sheet-handle"></div>
@@ -804,15 +788,29 @@ function show(n, b) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// ── Detail sheet ──
+// ── Check if a string is a real clickable URL ──
+function isValidUrl(str) {
+  if (!str) return false;
+  const s = str.trim();
+  return s.startsWith('http://') || s.startsWith('https://') || s.startsWith('f.io/');
+}
+
+function normaliseUrl(str) {
+  const s = str.trim();
+  if (s.startsWith('f.io/')) return 'https://' + s;
+  return s;
+}
+
+// ── Open detail sheet ──
 function openSheet(idx) {
   const r = ALL_ROWS[idx];
   if (!r) return;
 
-  const hasLink = r.link && r.link.trim() && r.link.trim().toLowerCase() !== 'done';
-  const linkUrl = hasLink ? r.link.trim() : null;
-
-  const dateDisplay = r.dateIso ? new Date(r.dateIso).toLocaleDateString("en-GB", { day:"numeric", month:"long", year:"numeric" }) : '—';
+  const hasLink = isValidUrl(r.link);
+  const linkUrl = hasLink ? normaliseUrl(r.link) : null;
+  const dateDisplay = r.dateIso
+    ? new Date(r.dateIso).toLocaleDateString("en-GB", { day:"numeric", month:"long", year:"numeric" })
+    : '—';
 
   document.getElementById('sheetInner').innerHTML = `
     <div class="sheet-status">
@@ -851,14 +849,13 @@ function openSheet(idx) {
              Watch Video
            </a>`
         : `<button class="btn btn-disabled" disabled>
-             <svg viewBox="0 0 24 24"><line x1="1" y1="1" x2="23" y2="23"/><path d="M15.536 15.536A5 5 0 0 1 7.05 7.05M10.05 4.05a5 5 0 0 1 5.5 5.5"/><path d="M21 21l-6-6m-6-6L3 3"/></svg>
+             <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
              No Link Yet
            </button>`}
     </div>
   `;
 
-  const ov = document.getElementById('overlay');
-  ov.classList.add('show');
+  document.getElementById('overlay').classList.add('show');
   document.body.style.overflow = 'hidden';
 }
 
@@ -872,7 +869,7 @@ function _closeSheet() {
   document.body.style.overflow = '';
 }
 
-// close on swipe down
+// Swipe down to dismiss
 (function() {
   const sheet = document.getElementById('sheet');
   let startY = 0, dragging = false;
