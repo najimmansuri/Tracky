@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>🎬 Video Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Mono:wght@400;500&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0f;--card:#13131a;--border:#1e1e2e;--wip:#f59e0b;--review:#8b5cf6;--done:#10b981;--ytd:#3b82f6;--text:#e2e8f0;--muted:#64748b;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:'Sora',sans-serif;min-height:100vh;}
+body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse at 20% 20%,rgba(139,92,246,.07),transparent 50%),radial-gradient(ellipse at 80% 80%,rgba(245,158,11,.05),transparent 50%);pointer-events:none;z-index:0;}
+.wrap{max-width:480px;margin:0 auto;padding:0 16px 110px;position:relative;z-index:1;}
+
+/* HEADER */
+.hdr{padding:28px 0 20px;text-align:center;border-bottom:1px solid var(--border);margin-bottom:24px;}
+.hdr-em{font-size:32px;display:block;margin-bottom:8px;animation:float 3s ease-in-out infinite;}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+.hdr h1{font-family:'DM Serif Display',serif;font-size:28px;background:linear-gradient(135deg,#f59e0b,#e879f9);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.hdr .dt{font-family:'DM Mono',monospace;font-size:11px;color:var(--muted);margin-top:6px;letter-spacing:.1em;text-transform:uppercase;}
+.live{display:inline-flex;align-items:center;gap:6px;background:rgba(16,185,129,.15);border:1px solid rgba(16,185,129,.3);color:var(--done);font-size:11px;font-weight:600;padding:4px 10px;border-radius:20px;margin-top:8px;}
+.pulse{width:6px;height:6px;background:var(--done);border-radius:50%;animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.8)}}
+
+/* LOADING */
+.loading{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 20px;gap:16px;}
+.spinner{width:36px;height:36px;border:3px solid var(--border);border-top-color:var(--wip);border-radius:50%;animation:spin 0.8s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading p{color:var(--muted);font-size:13px;}
+
+/* STATS */
+.stitle{font-family:'DM Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:var(--muted);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+.stitle::after{content:'';flex:1;height:1px;background:var(--border);}
+.sgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:24px;}
+.sc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:12px 8px;text-align:center;}
+.sn{font-family:'DM Serif Display',serif;font-size:26px;line-height:1;margin-bottom:4px;}
+.sl{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);}
+.sc.w .sn{color:var(--wip)} .sc.r .sn{color:var(--review)} .sc.d .sn{color:var(--done)} .sc.y .sn{color:var(--ytd)}
+
+/* PERSON */
+.phead{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+.av{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:#fff;font-family:'DM Serif Display',serif;flex-shrink:0;}
+.pname{font-size:16px;font-weight:700;letter-spacing:-.02em;}
+.chip{margin-left:auto;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px;background:rgba(16,185,129,.15);color:var(--done);border:1px solid rgba(16,185,129,.3);}
+
+/* CARDS */
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:14px;margin-bottom:8px;display:flex;align-items:flex-start;gap:12px;animation:si .4s ease both;}
+@keyframes si{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;margin-top:4px;}
+.dot-wip{background:var(--wip);box-shadow:0 0 8px var(--wip)}
+.dot-review{background:var(--review);box-shadow:0 0 8px var(--review)}
+.dot-done{background:var(--done)}
+.dot-ytd{background:var(--ytd)}
+.dot-cl{background:var(--muted)}
+.info{flex:1;min-width:0;}
+.vname{font-size:13px;font-weight:600;line-height:1.35;margin-bottom:6px;}
+.meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap;}
+.badge{font-family:'DM Mono',monospace;font-size:10px;font-weight:500;padding:2px 7px;border-radius:6px;}
+.badge-wip{background:rgba(245,158,11,.1);color:var(--wip);border:1px solid rgba(245,158,11,.2)}
+.badge-review{background:rgba(139,92,246,.1);color:var(--review);border:1px solid rgba(139,92,246,.2)}
+.badge-done{background:rgba(16,185,129,.1);color:var(--done);border:1px solid rgba(16,185,129,.2)}
+.badge-ytd{background:rgba(59,130,246,.1);color:var(--ytd);border:1px solid rgba(59,130,246,.2)}
+.badge-closed{background:rgba(100,116,139,.1);color:var(--muted);border:1px solid var(--border)}
+.dl{font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);}
+.dl.overdue{color:#ef4444;font-weight:600}
+.dl.soon{color:var(--wip);font-weight:600}
+.ttag{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-weight:600;padding:2px 6px;border-radius:4px;background:rgba(255,255,255,.04);}
+.rnote{font-size:11px;color:var(--muted);margin-top:4px;font-style:italic;}
+.empty{text-align:center;padding:24px;color:var(--muted);font-size:13px;}
+.divider{height:1px;background:var(--border);margin:20px 0;}
+.warn{font-family:'DM Mono',monospace;font-size:11px;color:#f59e0b;background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:10px;padding:12px 14px;margin-bottom:16px;text-align:center;line-height:1.6;}
+.lastupdated{font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);text-align:center;margin-bottom:16px;}
+
+/* TABS */
+.tab-wrap{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:center;z-index:100;}
+.tabs{width:100%;max-width:480px;background:rgba(10,10,15,.96);backdrop-filter:blur(20px);border-top:1px solid var(--border);display:flex;padding:8px 12px 20px;gap:4px;}
+.tb{flex:1;background:none;border:1px solid transparent;color:var(--muted);font-family:'Sora',sans-serif;font-size:10px;font-weight:600;padding:8px 4px;border-radius:10px;cursor:pointer;transition:all .2s;display:flex;flex-direction:column;align-items:center;gap:2px;text-transform:uppercase;letter-spacing:.06em;}
+.tb .ti{font-size:18px;}
+.tb.on{background:rgba(245,158,11,.1);color:var(--wip);border-color:rgba(245,158,11,.2);}
+.sec{display:none} .sec.on{display:block}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hdr">
+    <span class="hdr-em">🎬</span>
+    <h1>Video Tracker</h1>
+    <div class="dt" id="todayDate"></div>
+    <div style="display:flex;justify-content:center;margin-top:8px">
+      <div class="live"><div class="pulse"></div>Live · Auto-updates on sheet edit</div>
+    </div>
+  </div>
+
+  <!-- Loading state -->
+  <div class="loading" id="loadingEl">
+    <div class="spinner"></div>
+    <p>Fetching latest data…</p>
+  </div>
+
+  <!-- Content (hidden until data loads) -->
+  <div id="appContent" style="display:none">
+
+    <div id="s-overview" class="sec on">
+      <div class="stitle">At a glance</div>
+      <div class="sgrid">
+        <div class="sc w"><div class="sn" id="cnt-wip">0</div><div class="sl">WIP</div></div>
+        <div class="sc r"><div class="sn" id="cnt-review">0</div><div class="sl">Review</div></div>
+        <div class="sc d"><div class="sn" id="cnt-done">0</div><div class="sl">Done</div></div>
+        <div class="sc y"><div class="sn" id="cnt-ytd">0</div><div class="sl">YTD</div></div>
+      </div>
+      <div id="lastUpdated" class="lastupdated"></div>
+      <div class="stitle">Everyone</div>
+      <div id="overview-body"></div>
+    </div>
+
+    <div id="s-wip" class="sec">
+      <div class="stitle">In progress</div>
+      <div id="wip-body"></div>
+    </div>
+
+    <div id="s-review" class="sec">
+      <div class="stitle">In review</div>
+      <div id="review-body"></div>
+    </div>
+
+    <div id="s-done" class="sec">
+      <div class="stitle">Done recently</div>
+      <div id="done-body"></div>
+    </div>
+
+  </div>
+</div>
+
+<div class="tab-wrap">
+  <nav class="tabs">
+    <button class="tb on" onclick="show('overview',this)"><span class="ti">📊</span>Overview</button>
+    <button class="tb" onclick="show('wip',this)"><span class="ti">⚡</span>WIP</button>
+    <button class="tb" onclick="show('review',this)"><span class="ti">👁</span>Review</button>
+    <button class="tb" onclick="show('done',this)"><span class="ti">✅</span>Done</button>
+  </nav>
+</div>
+
+<script>
+// ─── Config ───────────────────────────────────────────────
+const DATA_URL = "https://raw.githubusercontent.com/najimmansuri/Tracky/main/data.json";
+const CACHE_BUST = "?t=" + Date.now(); // always fresh
+
+// ─── Tab switching ────────────────────────────────────────
+function show(n, b) {
+  document.querySelectorAll('.sec').forEach(s => s.classList.remove('on'));
+  document.querySelectorAll('.tb').forEach(x => x.classList.remove('on'));
+  document.getElementById('s-' + n).classList.add('on');
+  b.classList.add('on');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ─── Date helpers ─────────────────────────────────────────
+function formatDate(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (isNaN(d)) return "";
+  const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  return months[d.getMonth()] + " " + d.getDate();
+}
+
+function daysFromNow(iso) {
+  if (!iso) return null;
+  const d = new Date(iso);
+  if (isNaN(d)) return null;
+  const now = new Date(); now.setHours(0,0,0,0);
+  return Math.round((d - now) / 86400000);
+}
+
+// ─── Render helpers ───────────────────────────────────────
+const GRADS = [
+  "linear-gradient(135deg,#f59e0b,#ef4444)",
+  "linear-gradient(135deg,#8b5cf6,#3b82f6)",
+  "linear-gradient(135deg,#10b981,#06b6d4)",
+  "linear-gradient(135deg,#ec4899,#f59e0b)",
+];
+function grad(name) {
+  let h = 0; for (const c of name) h += c.charCodeAt(0);
+  return GRADS[h % GRADS.length];
+}
+
+function badgeHtml(s) {
+  const m = {
+    "WIP":       ["badge-wip",    "⚡ WIP"],
+    "In Review": ["badge-review", "👁 In Review"],
+    "Done":      ["badge-done",   "✓ Done"],
+    "YTD":       ["badge-ytd",    "🔵 YTD"],
+    "Closed":    ["badge-closed", "✗ Closed"],
+  };
+  const [cls, lbl] = m[s] || ["badge-ytd", s];
+  return `<span class="badge ${cls}">${lbl}</span>`;
+}
+
+function dlHtml(iso, status) {
+  if (!iso) return "";
+  const lbl = formatDate(iso);
+  if (status === "Done" || status === "Closed") return `<span class="dl">📅 ${lbl}</span>`;
+  const days = daysFromNow(iso);
+  if (days === null) return `<span class="dl">📅 ${lbl}</span>`;
+  if (days < 0)  return `<span class="dl overdue">🔥 ${lbl} · ${Math.abs(days)}d overdue</span>`;
+  if (days <= 3) return `<span class="dl soon">⚡ ${lbl} · ${days}d left</span>`;
+  return `<span class="dl">📅 ${lbl} · ${days}d</span>`;
+}
+
+function dotClass(s) {
+  return { "WIP":"dot-wip","In Review":"dot-review","Done":"dot-done","YTD":"dot-ytd","Closed":"dot-cl" }[s] || "dot-ytd";
+}
+
+function borderColor(s) {
+  return { "WIP":"var(--wip)","In Review":"var(--review)","Done":"var(--done)","YTD":"var(--ytd)","Closed":"var(--border)" }[s] || "var(--border)";
+}
+
+function renderCards(items) {
+  if (!items.length) return `<div class="empty">Nothing here 🎉</div>`;
+  return items.map((r, i) => `
+<div class="card" style="border-left:3px solid ${borderColor(r.status)};animation-delay:${i*0.05}s;opacity:${r.status==="Done"||r.status==="Closed"?".72":"1"}">
+  <div class="dot ${dotClass(r.status)}"></div>
+  <div class="info">
+    <div class="vname">${r.name}</div>
+    <div class="meta">
+      ${badgeHtml(r.status)}
+      ${r.type ? `<span class="ttag">${r.type}</span>` : ""}
+      ${dlHtml(r.dateIso, r.status)}
+    </div>
+    ${r.status === "In Review" ? `<div class="rnote">🔍 Awaiting peer review</div>` : ""}
+  </div>
+</div>`).join("");
+}
+
+function renderPersonSection(rows, filterStatus) {
+  const people = [...new Set(rows.map(r => r.owner).filter(Boolean))].sort();
+  let html = "";
+  people.forEach((p, pi) => {
+    const base = filterStatus
+      ? rows.filter(r => r.status === filterStatus)
+      : rows.filter(r => r.status !== "Closed");
+    const items = base.filter(r => r.owner.toLowerCase() === p.toLowerCase());
+    if (!items.length) return;
+    html += `
+      ${pi > 0 ? '<div class="divider"></div>' : ""}
+      <div class="phead">
+        <div class="av" style="background:${grad(p)}">${p[0].toUpperCase()}</div>
+        <div class="pname">${p}</div>
+        <div class="chip">${items.length} ${filterStatus || "active"}</div>
+      </div>
+      ${renderCards(items)}`;
+  });
+  return html || `<div class="empty">Nothing here 🎉</div>`;
+}
+
+// ─── Set today's date ─────────────────────────────────────
+document.getElementById('todayDate').textContent =
+  new Date().toLocaleDateString("en-GB", { weekday:"long", day:"numeric", month:"long", year:"numeric" }).toUpperCase();
+
+// ─── Load data ────────────────────────────────────────────
+fetch(DATA_URL + CACHE_BUST)
+  .then(r => {
+    if (!r.ok) throw new Error("data.json not found (status " + r.status + ")");
+    return r.json();
+  })
+  .then(data => {
+    document.getElementById('loadingEl').style.display = 'none';
+    document.getElementById('appContent').style.display = 'block';
+
+    const rows = data.rows || [];
+    const updatedAt = data.updatedAt || "";
+
+    // Counts
+    document.getElementById('cnt-wip').textContent    = rows.filter(r => r.status === "WIP").length;
+    document.getElementById('cnt-review').textContent = rows.filter(r => r.status === "In Review").length;
+    document.getElementById('cnt-done').textContent   = rows.filter(r => r.status === "Done").length;
+    document.getElementById('cnt-ytd').textContent    = rows.filter(r => r.status === "YTD").length;
+
+    // Last updated
+    if (updatedAt) {
+      const d = new Date(updatedAt);
+      document.getElementById('lastUpdated').textContent =
+        "Sheet last updated: " + d.toLocaleString("en-GB", { day:"numeric", month:"short", hour:"2-digit", minute:"2-digit" });
+    }
+
+    // Sections
+    document.getElementById('overview-body').innerHTML = renderPersonSection(rows, null);
+    document.getElementById('wip-body').innerHTML      = renderPersonSection(rows, "WIP");
+    document.getElementById('review-body').innerHTML   = renderCards(rows.filter(r => r.status === "In Review"));
+    document.getElementById('done-body').innerHTML     = renderPersonSection(rows, "Done");
+  })
+  .catch(err => {
+    document.getElementById('loadingEl').innerHTML = `
+      <div class="warn">
+        ⚠️ Could not load data.json<br>
+        <small>${err.message}</small><br><br>
+        Make sure the Apps Script has pushed data.json to your repo at least once.
+      </div>`;
+  });
+</script>
+</body>
+</html>
