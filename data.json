@@ -145,13 +145,13 @@
       "notes": ""
     },
     {
-      "name": "Enployee profile",
+      "name": "Employee Directory and Employee Profile Video",
       "status": "YTD",
       "owner": "Vishnu",
       "type": "JTBD",
       "dateIso": "2026-04-28",
       "link": "",
-      "notes": ""
+      "notes": "Script under peer review on 24.04.26 (Nazim)"
     },
     {
       "name": "Digital Signature (Letter Module)",
@@ -640,5 +640,5 @@
       "notes": ""
     }
   ],
-  "updatedAt": "2026-04-24T10:02:28.024Z"
+  "updatedAt": "2026-04-24T10:11:16.407Z"
 }
