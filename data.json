@@ -82,6 +82,15 @@
       "notes": ""
     },
     {
+      "name": "Employee Directory and Employee Profile Video",
+      "status": "WIP",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-04-28",
+      "link": "",
+      "notes": "Script under peer review on 24.04.26 (Nazim)"
+    },
+    {
       "name": "Declare income tax on behalf of an employee",
       "status": "Done",
       "owner": "Vishnu",
@@ -161,15 +170,6 @@
       "dateIso": "2026-04-22",
       "link": "https://youtu.be/sUIlP0wMCVM",
       "notes": ""
-    },
-    {
-      "name": "Employee Directory and Employee Profile Video",
-      "status": "YTD",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "2026-04-28",
-      "link": "",
-      "notes": "Script under peer review on 24.04.26 (Nazim)"
     },
     {
       "name": "Digital Signature (Letter Module)",
@@ -658,5 +658,5 @@
       "notes": ""
     }
   ],
-  "updatedAt": "2026-04-27T05:48:00.732Z"
+  "updatedAt": "2026-04-27T06:48:01.757Z"
 }
