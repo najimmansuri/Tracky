@@ -28,7 +28,7 @@
       "notes": "Under peer review on 22.04.26"
     },
     {
-      "name": "Upsale Plan for Video",
+      "name": "Upsell Plan for Video",
       "status": "WIP",
       "owner": "Nazim",
       "type": "OT",
@@ -37,7 +37,7 @@
       "notes": ""
     },
     {
-      "name": "Make UTM Links and Update Yotube Discritpions",
+      "name": "Make UTM Links and Update Youtube Description",
       "status": "WIP",
       "owner": "Nazim",
       "type": "OT",
@@ -46,7 +46,7 @@
       "notes": ""
     },
     {
-      "name": "Content with Tejas for Arebic Video Requirements",
+      "name": "Connect with Tejas for Arebic Video Requirements",
       "status": "WIP",
       "owner": "Nazim",
       "type": "OT",
@@ -55,7 +55,7 @@
       "notes": ""
     },
     {
-      "name": "Coonnect With Pooja Regarding Digital Signature",
+      "name": "Connect With Pooja Regarding Digital Signature",
       "status": "WIP",
       "owner": "Nazim",
       "type": "OT",
@@ -70,7 +70,7 @@
       "type": "Revamp",
       "dateIso": "2026-04-26",
       "link": "",
-      "notes": ""
+      "notes": "Under peer review on 22.04.27"
     },
     {
       "name": "GeoTracking Demo",
@@ -667,5 +667,5 @@
       "notes": ""
     }
   ],
-  "updatedAt": "2026-04-28T05:47:58.983Z"
+  "updatedAt": "2026-04-28T06:04:03.595Z"
 }
