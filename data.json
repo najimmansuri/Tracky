@@ -70,7 +70,7 @@
       "type": "Revamp",
       "dateIso": "2026-04-26",
       "link": "",
-      "notes": "Under peer review on 22.04.27"
+      "notes": "Under peer review on 28.04.27"
     },
     {
       "name": "GeoTracking Demo",
@@ -86,9 +86,27 @@
       "status": "WIP",
       "owner": "Vishnu",
       "type": "JTBD",
-      "dateIso": "2026-04-28",
+      "dateIso": "",
       "link": "",
-      "notes": "Script under peer review on 24.04.26 (Nazim)"
+      "notes": "Currently, paused. Feature will go to get live on the 2nd week of May."
+    },
+    {
+      "name": "Auto Reminder (Recruit)",
+      "status": "WIP",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-04-29",
+      "link": "",
+      "notes": "Script is WIP"
+    },
+    {
+      "name": "BGV enhancement (Recruit)",
+      "status": "WIP",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-05-03",
+      "link": "",
+      "notes": "Script is WIP"
     },
     {
       "name": "Declare income tax on behalf of an employee",
@@ -667,5 +685,5 @@
       "notes": ""
     }
   ],
-  "updatedAt": "2026-04-28T06:04:03.595Z"
+  "updatedAt": "2026-04-28T06:14:47.167Z"
 }
