@@ -1,22 +1,13 @@
 {
   "rows": [
     {
-      "name": "Maintain Employee Bonus Register on greytHR",
+      "name": "Auto Reminder (Recruit)",
       "status": "In Review",
       "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-04-19",
-      "link": "https://f.io/UCLGahUK",
-      "notes": ""
-    },
-    {
-      "name": "Declare Your Income Tax for 2026 with greytHR ESS Portal",
-      "status": "In Review",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-04-26",
-      "link": "https://f.io/nIZvhyzj",
-      "notes": "Under peer review on 28.04.27"
+      "type": "JTBD",
+      "dateIso": "2026-04-29",
+      "link": "https://f.io/qqRzKzfA",
+      "notes": "Video under review on 29.04.26 (Navya)"
     },
     {
       "name": "Upsell Plan for Video",
@@ -64,24 +55,6 @@
       "notes": ""
     },
     {
-      "name": "Employee Directory and Employee Profile Video",
-      "status": "WIP",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "",
-      "link": "",
-      "notes": "Currently, paused. Feature will go to get live on the 2nd week of May."
-    },
-    {
-      "name": "Auto Reminder (Recruit)",
-      "status": "WIP",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "2026-04-29",
-      "link": "",
-      "notes": ""
-    },
-    {
       "name": "BGV enhancement (Recruit)",
       "status": "WIP",
       "owner": "Vishnu",
@@ -89,15 +62,6 @@
       "dateIso": "2026-05-03",
       "link": "",
       "notes": "Script is WIP"
-    },
-    {
-      "name": "Declare income tax on behalf of an employee",
-      "status": "Done",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-02-12",
-      "link": "",
-      "notes": ""
     },
     {
       "name": "View and Override Employees' Shift Schedule (Shift Roster)",
@@ -136,6 +100,15 @@
       "notes": "Youtube upload pending"
     },
     {
+      "name": "Maintain Employee Bonus Register on greytHR",
+      "status": "Done",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-04-19",
+      "link": "https://f.io/UCLGahUK",
+      "notes": "Youtube upload pending"
+    },
+    {
       "name": "How to Manage Employee Income Tax Declaration",
       "status": "Done",
       "owner": "Vishnu",
@@ -145,6 +118,15 @@
       "notes": "Youtube upload pending"
     },
     {
+      "name": "Declare Your Income Tax for 2026 with greytHR ESS Portal",
+      "status": "Done",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-04-26",
+      "link": "https://f.io/nIZvhyzj",
+      "notes": "Under peer review on 28.04.27"
+    },
+    {
       "name": "Navos Assist Recruit",
       "status": "YTD",
       "owner": "Nazim",
@@ -152,6 +134,15 @@
       "dateIso": "2026-05-04",
       "link": "",
       "notes": ""
+    },
+    {
+      "name": "Employee Directory and Employee Profile Video",
+      "status": "YTD",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "",
+      "link": "",
+      "notes": "Currently, the feature is paused and is scheduled to go live in the second week of May. The script has been under peer review with Nazim on 24.04.2026."
     },
     {
       "name": "Manage Team's Attendance Requests on greytHR's ESS Portal",
@@ -478,6 +469,15 @@
       "notes": ""
     },
     {
+      "name": "Declare income tax on behalf of an employee",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-02-12",
+      "link": "",
+      "notes": ""
+    },
+    {
       "name": "View and Edit Employees Attendance Details (Attendance Muster)",
       "status": "Closed",
       "owner": "Vishnu",
@@ -685,5 +685,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-04-29T10:47:57.338Z"
+  "updatedAt": "2026-04-29T11:48:06.639Z"
 }
