@@ -61,16 +61,7 @@
       "type": "OT",
       "dateIso": "2026-04-26",
       "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Connect With Pooja Regarding Digital Signature",
-      "status": "WIP",
-      "owner": "Nazim",
-      "type": "OT",
-      "dateIso": "2026-04-26",
-      "link": "",
-      "notes": ""
+      "notes": "Thejas is yet to collect all requirment from ME team, once he'll update i'll close this task."
     },
     {
       "name": "GeMark Demo",
@@ -78,6 +69,15 @@
       "owner": "Nazim",
       "type": "Demo",
       "dateIso": "2026-04-27",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "Digital Signature (Letter Module)",
+      "status": "WP",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-04-30",
       "link": "",
       "notes": ""
     },
@@ -190,24 +190,6 @@
       "notes": ""
     },
     {
-      "name": "Digital Signature (Letter Module)",
-      "status": "YTD",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-04-30",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Navos Assist Recruit",
-      "status": "YTD",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-05-04",
-      "link": "",
-      "notes": ""
-    },
-    {
       "name": "Manage Team's Attendance Requests on greytHR's ESS Portal",
       "status": "YTD",
       "owner": "Vishnu",
@@ -262,15 +244,6 @@
       "notes": ""
     },
     {
-      "name": "Newsletter (November)",
-      "status": "Closed",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "2025-12-09",
-      "link": "",
-      "notes": ""
-    },
-    {
       "name": "Process leave year end activities automatically revamp",
       "status": "Closed",
       "owner": "Vishnu",
@@ -289,65 +262,11 @@
       "notes": ""
     },
     {
-      "name": "Navos Anoucement",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2025-12-18",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Mobile Trubleshoot",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2025-12-25",
-      "link": "",
-      "notes": ""
-    },
-    {
       "name": "Create a holiday list",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
       "dateIso": "2025-12-31",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Bahasa Roadmap",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "OT",
-      "dateIso": "2026-01-05",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Newsletter (December)",
-      "status": "Closed",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "2026-01-05",
-      "link": "https://youtu.be/OthpPYGWP08?si=ooIFXJxLd7YZ9a7i",
-      "notes": ""
-    },
-    {
-      "name": "Youtube Report",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "OT",
-      "dateIso": "2026-01-06",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Product Overview",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-01-08",
       "link": "",
       "notes": ""
     },
@@ -366,42 +285,6 @@
       "owner": "Vishnu",
       "type": "Revamp",
       "dateIso": "2026-01-11",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "GPS Live Tracker",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-01-13",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Mobile Overview",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-01-15",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "TAT",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "OT",
-      "dateIso": "2026-01-18",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Content Callender",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "OT",
-      "dateIso": "2026-01-18",
       "link": "",
       "notes": ""
     },
@@ -442,74 +325,11 @@
       "notes": ""
     },
     {
-      "name": "Sample For Shorts",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "OT",
-      "dateIso": "2026-01-22",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Get Super set Acess",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "OT",
-      "dateIso": "2026-01-22",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Product Overview Bahasa",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-01-29",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "How to track resignation Application",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "JTBD",
-      "dateIso": "2026-02-02",
-      "link": "",
-      "notes": ""
-    },
-    {
       "name": "Letter module",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "Revamp",
       "dateIso": "2026-02-02",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Process Montly Payroll",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "JTBD",
-      "dateIso": "2026-02-03",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Expense 5 Gif for web",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-02-04",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "HIndi to English Shorts",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-02-04",
       "link": "",
       "notes": ""
     },
@@ -568,6 +388,87 @@
       "notes": ""
     },
     {
+      "name": "Mastering employee attendance",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-03-04",
+      "link": "https://youtu.be/G9CfKzXviDY",
+      "notes": ""
+    },
+    {
+      "name": "Declare FBP on greytHR's ESS Portal!",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-03-10",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "Mark and Track Employee Attendance Easily on greytHR",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-03-14",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "Leave year end process Revamp",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-03-17",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "Generate Employee Payslip after Processing Payroll on greytHR",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-03-23",
+      "link": "https://youtu.be/dwSoWJ5QRek",
+      "notes": ""
+    },
+    {
+      "name": "Newsletter (November)",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2025-12-09",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "Newsletter (December)",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-01-05",
+      "link": "https://youtu.be/OthpPYGWP08?si=ooIFXJxLd7YZ9a7i",
+      "notes": ""
+    },
+    {
+      "name": "How to track resignation Application",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "JTBD",
+      "dateIso": "2026-02-02",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "Process Montly Payroll",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "JTBD",
+      "dateIso": "2026-02-03",
+      "link": "",
+      "notes": ""
+    },
+    {
       "name": "How to update IBAN Number",
       "status": "Closed",
       "owner": "Vishnu",
@@ -604,66 +505,12 @@
       "notes": "ME Video"
     },
     {
-      "name": "Mastering employee attendance",
-      "status": "Closed",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-03-04",
-      "link": "https://youtu.be/G9CfKzXviDY",
-      "notes": ""
-    },
-    {
       "name": "February Newsletter",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "JTBD",
       "dateIso": "2026-03-08",
       "link": "https://youtu.be/aY19zZ1WGn4?si=I_CdsFS7C7CIMDWH",
-      "notes": ""
-    },
-    {
-      "name": "Declare FBP on greytHR's ESS Portal!",
-      "status": "Closed",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-03-10",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Mark and Track Employee Attendance Easily on greytHR",
-      "status": "Closed",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-03-14",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Leave year end process Revamp",
-      "status": "Closed",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-03-17",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "GPS Live Tracking",
-      "status": "Closed",
-      "owner": "Nazim",
-      "type": "Demo",
-      "dateIso": "2026-03-23",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "Generate Employee Payslip after Processing Payroll on greytHR",
-      "status": "Closed",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-03-23",
-      "link": "https://youtu.be/dwSoWJ5QRek",
       "notes": ""
     },
     {
@@ -676,14 +523,167 @@
       "notes": ""
     },
     {
+      "name": "Navos Assist Recruit",
+      "status": "YTD",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-05-04",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "Navos Anoucement",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2025-12-18",
+      "link": "",
+      "notes": "\"NAVOS will only go live after we launch the product which hasn't happened \""
+    },
+    {
+      "name": "Mobile Trubleshoot",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2025-12-25",
+      "link": "",
+      "notes": "Have update all Thumbanails and re-release."
+    },
+    {
+      "name": "Product Overview",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-01-08",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "GPS Live Tracker",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-01-13",
+      "link": "",
+      "notes": "Done, Have to take cinfiramtion from Sreya.."
+    },
+    {
+      "name": "Mobile Overview",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-01-15",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "Product Overview Bahasa",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-01-29",
+      "link": "",
+      "notes": "Script is in review - Assets has been done.. just need script to finish it."
+    },
+    {
+      "name": "Expense 5 Gif for web",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-02-04",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "HIndi to English Shorts",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-02-04",
+      "link": "",
+      "notes": ""
+    },
+    {
       "name": "Expense",
       "status": "Closed",
       "owner": "Nazim",
       "type": "PEV",
       "dateIso": "2026-12-18",
       "link": "",
+      "notes": "\"Brand is still working on the video using our video as  a base\""
+    },
+    {
+      "name": "GPS Live Tracking",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "Demo",
+      "dateIso": "2026-03-23",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "Bahasa Roadmap",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "OT",
+      "dateIso": "2026-01-05",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "Youtube Report",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "OT",
+      "dateIso": "2026-01-06",
+      "link": "",
+      "notes": "have to finish it tommaraw.."
+    },
+    {
+      "name": "TAT",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "OT",
+      "dateIso": "2026-01-18",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "Content Callender",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "OT",
+      "dateIso": "2026-01-18",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "Sample For Shorts",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "OT",
+      "dateIso": "2026-01-22",
+      "link": "",
+      "notes": ""
+    },
+    {
+      "name": "Get Super set Acess",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "OT",
+      "dateIso": "2026-01-22",
+      "link": "",
+      "notes": "Done.. waiting for Sarn Replie"
+    },
+    {
+      "name": "Connect With Pooja Regarding Digital Signature",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "OT",
+      "dateIso": "2026-04-26",
+      "link": "",
       "notes": ""
     }
   ],
-  "updatedAt": "2026-04-29T03:47:57.074Z"
+  "updatedAt": "2026-04-29T04:48:00.981Z"
 }
