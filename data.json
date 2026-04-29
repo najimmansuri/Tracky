@@ -37,6 +37,15 @@
       "notes": ""
     },
     {
+      "name": "Connect with Tejas for Arebic Video Requirements",
+      "status": "WIP",
+      "owner": "Nazim",
+      "type": "OT",
+      "dateIso": "2026-04-26",
+      "link": "",
+      "notes": "Thejas collecting requirments"
+    },
+    {
       "name": "GeMark Demo",
       "status": "WIP",
       "owner": "Nazim",
@@ -134,51 +143,6 @@
       "dateIso": "2026-04-20",
       "link": "https://f.io/-xGlfDNf",
       "notes": "Youtube upload pending"
-    },
-    {
-      "name": "EIM Short PEV",
-      "status": "Done",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-04-22",
-      "link": "https://youtu.be/p733oJH8oZE",
-      "notes": ""
-    },
-    {
-      "name": "PMS Short PEV",
-      "status": "Done",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-04-22",
-      "link": "https://youtu.be/07bTaL_RVHU",
-      "notes": ""
-    },
-    {
-      "name": "Recruit Short PEV",
-      "status": "Done",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-04-22",
-      "link": "https://youtu.be/XlIYMG6Hu54",
-      "notes": ""
-    },
-    {
-      "name": "Letter Module Annoucement",
-      "status": "Done",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-04-22",
-      "link": "https://youtu.be/KNX3DudtndU",
-      "notes": ""
-    },
-    {
-      "name": "IT Changes PEV",
-      "status": "Done",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-04-22",
-      "link": "https://youtu.be/sUIlP0wMCVM",
-      "notes": ""
     },
     {
       "name": "Navos Assist Recruit",
@@ -658,13 +622,49 @@
       "notes": ""
     },
     {
-      "name": "Connect with Tejas for Arebic Video Requirements",
+      "name": "EIM Short PEV",
       "status": "Closed",
       "owner": "Nazim",
-      "type": "OT",
-      "dateIso": "2026-04-26",
-      "link": "",
-      "notes": "No requirement for ME \"No video requirement from both Vijayendra or Yasser\n\" - Thejas"
+      "type": "PEV",
+      "dateIso": "2026-04-22",
+      "link": "https://youtu.be/p733oJH8oZE",
+      "notes": ""
+    },
+    {
+      "name": "PMS Short PEV",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-04-22",
+      "link": "https://youtu.be/07bTaL_RVHU",
+      "notes": ""
+    },
+    {
+      "name": "Recruit Short PEV",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-04-22",
+      "link": "https://youtu.be/XlIYMG6Hu54",
+      "notes": ""
+    },
+    {
+      "name": "Letter Module Annoucement",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-04-22",
+      "link": "https://youtu.be/KNX3DudtndU",
+      "notes": ""
+    },
+    {
+      "name": "IT Changes PEV",
+      "status": "Closed",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-04-22",
+      "link": "https://youtu.be/sUIlP0wMCVM",
+      "notes": ""
     },
     {
       "name": "Connect With Pooja Regarding Digital Signature",
@@ -685,5 +685,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-04-29T06:49:29.709Z"
+  "updatedAt": "2026-04-29T07:07:27.202Z"
 }
