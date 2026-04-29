@@ -73,7 +73,7 @@
       "notes": ""
     },
     {
-      "name": "GeoTracking Demo",
+      "name": "GeMark Demo",
       "status": "WIP",
       "owner": "Nazim",
       "type": "Demo",
@@ -685,5 +685,5 @@
       "notes": ""
     }
   ],
-  "updatedAt": "2026-04-29T02:47:57.131Z"
+  "updatedAt": "2026-04-29T03:47:57.074Z"
 }
