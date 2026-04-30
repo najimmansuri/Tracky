@@ -10,15 +10,6 @@
       "notes": "Video under review on 29.04.26 (Navya)"
     },
     {
-      "name": "Upsell Plan for Video",
-      "status": "WIP",
-      "owner": "Nazim",
-      "type": "OT",
-      "dateIso": "2026-04-26",
-      "link": "",
-      "notes": ""
-    },
-    {
       "name": "Make UTM Links and Update Youtube Description",
       "status": "WIP",
       "owner": "Nazim",
@@ -64,51 +55,6 @@
       "notes": "Script is WIP"
     },
     {
-      "name": "View and Override Employees' Shift Schedule (Shift Roster)",
-      "status": "Done",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-04-01",
-      "link": "https://youtu.be/UGlXqShIfkM",
-      "notes": ""
-    },
-    {
-      "name": "View Organization Hierarchy (Organization Chart) on greytHR",
-      "status": "Done",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-04-06",
-      "link": "https://youtu.be/3QV_Sd7OU-M",
-      "notes": ""
-    },
-    {
-      "name": "Process Full and Final Settlement for Resigned Employee on greytHR",
-      "status": "Done",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-04-09",
-      "link": "https://youtu.be/RBLe8zUvVAc",
-      "notes": ""
-    },
-    {
-      "name": "Communicate with Employees using Mass Email or SMS on greytHR",
-      "status": "Done",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-04-13",
-      "link": "https://youtu.be/7k8XPtAydd0",
-      "notes": ""
-    },
-    {
-      "name": "Maintain Employee Bonus Register on greytHR",
-      "status": "Done",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-04-19",
-      "link": "https://youtu.be/yjzqf0ts44w",
-      "notes": "Youtube upload pending"
-    },
-    {
       "name": "How to Manage Employee Income Tax Declaration",
       "status": "Done",
       "owner": "Vishnu",
@@ -116,6 +62,15 @@
       "dateIso": "2026-04-20",
       "link": "https://f.io/-xGlfDNf",
       "notes": "Youtube upload pending"
+    },
+    {
+      "name": "Upsell Plan for Video",
+      "status": "Done",
+      "owner": "Nazim",
+      "type": "OT",
+      "dateIso": "2026-04-26",
+      "link": "https://greytip.atlassian.net/wiki/x/CgCkpw",
+      "notes": ""
     },
     {
       "name": "Declare Your Income Tax for 2026 with greytHR ESS Portal",
@@ -613,12 +568,57 @@
       "notes": ""
     },
     {
+      "name": "View and Override Employees' Shift Schedule (Shift Roster)",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-04-01",
+      "link": "https://youtu.be/UGlXqShIfkM",
+      "notes": ""
+    },
+    {
+      "name": "View Organization Hierarchy (Organization Chart) on greytHR",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-04-06",
+      "link": "https://youtu.be/3QV_Sd7OU-M",
+      "notes": ""
+    },
+    {
       "name": "March Newsletter",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "JTBD",
       "dateIso": "2026-04-07",
       "link": "https://youtu.be/jZ8yCzQ2hn0",
+      "notes": ""
+    },
+    {
+      "name": "Process Full and Final Settlement for Resigned Employee on greytHR",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-04-09",
+      "link": "https://youtu.be/RBLe8zUvVAc",
+      "notes": ""
+    },
+    {
+      "name": "Communicate with Employees using Mass Email or SMS on greytHR",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-04-13",
+      "link": "https://youtu.be/7k8XPtAydd0",
+      "notes": ""
+    },
+    {
+      "name": "Maintain Employee Bonus Register on greytHR",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-04-19",
+      "link": "https://youtu.be/yjzqf0ts44w",
       "notes": ""
     },
     {
@@ -685,5 +685,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-04-30T08:04:13.220Z"
+  "updatedAt": "2026-04-30T08:17:52.169Z"
 }
