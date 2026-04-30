@@ -19,15 +19,6 @@
       "notes": "Script under review on 30.04.26 (Navya)"
     },
     {
-      "name": "Digital Signature (Letter Module)",
-      "status": "In Review",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-05-04",
-      "link": "https://docs.google.com/document/d/1bSdEscaQx2c8EdqWJaXbCWNAWJdMFO2MYABgDVp6CDU/edit?usp=sharing",
-      "notes": "Script in Review with Pooja."
-    },
-    {
       "name": "Make UTM Links and Update Youtube Description",
       "status": "WIP",
       "owner": "Nazim",
@@ -53,6 +44,15 @@
       "dateIso": "2026-04-27",
       "link": "",
       "notes": ""
+    },
+    {
+      "name": "Digital Signature (Letter Module)",
+      "status": "WIP",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-05-04",
+      "link": "https://docs.google.com/document/d/1bSdEscaQx2c8EdqWJaXbCWNAWJdMFO2MYABgDVp6CDU/edit?usp=sharing",
+      "notes": "Script ihas been Aprroved."
     },
     {
       "name": "How to Manage Employee Income Tax Declaration",
@@ -685,5 +685,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-04-30T08:48:02.421Z"
+  "updatedAt": "2026-04-30T09:08:25.845Z"
 }
