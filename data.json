@@ -1,6 +1,15 @@
 {
   "rows": [
     {
+      "name": "Upsell Plan for Video",
+      "status": "In Review",
+      "owner": "Nazim",
+      "type": "OT",
+      "dateIso": "2026-04-26",
+      "link": "https://greytip.atlassian.net/wiki/x/CgCkpw",
+      "notes": "Sreya has to review it."
+    },
+    {
       "name": "Auto Reminder (Recruit)",
       "status": "In Review",
       "owner": "Vishnu",
@@ -42,7 +51,7 @@
       "owner": "Nazim",
       "type": "Demo",
       "dateIso": "2026-04-27",
-      "link": "",
+      "link": "https://docs.google.com/document/d/1KdnBgn2oBF_1g4_Jb5zUmsPfLML1AzjxFxDBHGGrt00/edit?tab=t.ybqzi2lxuq8o#heading=h.sntdny2c48wl",
       "notes": ""
     },
     {
@@ -64,15 +73,6 @@
       "notes": ""
     },
     {
-      "name": "Upsell Plan for Video",
-      "status": "Done",
-      "owner": "Nazim",
-      "type": "OT",
-      "dateIso": "2026-04-26",
-      "link": "https://greytip.atlassian.net/wiki/x/CgCkpw",
-      "notes": ""
-    },
-    {
       "name": "Declare Your Income Tax for 2026 with greytHR ESS Portal",
       "status": "Done",
       "owner": "Vishnu",
@@ -80,6 +80,15 @@
       "dateIso": "2026-04-26",
       "link": "https://f.io/nIZvhyzj",
       "notes": "Under peer review on 28.04.27"
+    },
+    {
+      "name": "JTBD Shorts",
+      "status": "YTD",
+      "owner": "Nazim",
+      "type": "OT",
+      "dateIso": "2026-05-03",
+      "link": "",
+      "notes": "Making these following shorts: View and Override Employees' Shift Schedule (Shift Roster) \nView Organization Hierarchy (Organization Chart) on greytHR\nProcess Full and Final Settlement for Resigned Employee on greytHR\nCommunicate with Employees using Mass Email or SMS on greytHR\n\"\nMaintain Employee Bonus Register on greytHR\"\n\"\nHow to Manage Employee Income Tax Declaration \"\nDeclare Your Income Tax for 2026 with greytHR ESS Portal\n Employee Directory and Employee Profile Video\nAuto Reminder (Recruit)\nBGV enhancement (Recruit)"
     },
     {
       "name": "Navos Assist Recruit",
@@ -685,5 +694,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-04-30T13:48:21.148Z"
+  "updatedAt": "2026-04-30T14:09:33.985Z"
 }
