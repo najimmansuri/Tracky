@@ -7,7 +7,25 @@
       "type": "JTBD",
       "dateIso": "2026-04-29",
       "link": "https://f.io/qqRzKzfA",
-      "notes": "Video under review on 29.04.26 (Navya)"
+      "notes": "Peer review completed Navya review completed. Now its under Swarnim review on 30.4.26"
+    },
+    {
+      "name": "BGV enhancement (Recruit)",
+      "status": "In Review",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-05-03",
+      "link": "https://docs.google.com/document/d/1Hte2BAXUl12zMCF7r7McyEee6g6kG8vaFe8EHR6GPf8/edit?tab=t.0",
+      "notes": "Script under review on 30.04.26 (Navya)"
+    },
+    {
+      "name": "Digital Signature (Letter Module)",
+      "status": "In Review",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-05-04",
+      "link": "https://docs.google.com/document/d/1bSdEscaQx2c8EdqWJaXbCWNAWJdMFO2MYABgDVp6CDU/edit?usp=sharing",
+      "notes": "Script in Review with Pooja."
     },
     {
       "name": "Make UTM Links and Update Youtube Description",
@@ -37,31 +55,13 @@
       "notes": ""
     },
     {
-      "name": "Digital Signature (Letter Module)",
-      "status": "WP",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-04-30",
-      "link": "",
-      "notes": ""
-    },
-    {
-      "name": "BGV enhancement (Recruit)",
-      "status": "WIP",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "2026-05-03",
-      "link": "",
-      "notes": "Script is WIP"
-    },
-    {
       "name": "How to Manage Employee Income Tax Declaration",
       "status": "Done",
       "owner": "Vishnu",
       "type": "Revamp",
       "dateIso": "2026-04-20",
       "link": "https://f.io/-xGlfDNf",
-      "notes": "Youtube upload pending"
+      "notes": ""
     },
     {
       "name": "Upsell Plan for Video",
@@ -685,5 +685,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-04-30T08:17:52.169Z"
+  "updatedAt": "2026-04-30T08:45:03.463Z"
 }
