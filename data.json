@@ -16,7 +16,7 @@
       "type": "JTBD",
       "dateIso": "2026-04-29",
       "link": "https://f.io/qqRzKzfA",
-      "notes": "Peer review completed Navya review completed. Now its under Swarnim review on 30.4.26"
+      "notes": "Navya review completed. Now its under Swarnim review on 30.4.26"
     },
     {
       "name": "BGV enhancement (Recruit)",
@@ -24,7 +24,7 @@
       "owner": "Vishnu",
       "type": "JTBD",
       "dateIso": "2026-05-03",
-      "link": "https://docs.google.com/document/d/1Hte2BAXUl12zMCF7r7McyEee6g6kG8vaFe8EHR6GPf8/edit?tab=t.0",
+      "link": "",
       "notes": "Script under review on 30.04.26 (Navya)"
     },
     {
@@ -73,22 +73,13 @@
       "notes": ""
     },
     {
-      "name": "How to Manage Employee Income Tax Declaration",
-      "status": "Done",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-04-20",
-      "link": "https://youtu.be/nYn4N_gpUuQ",
-      "notes": ""
-    },
-    {
       "name": "Declare Your Income Tax for 2026 with greytHR ESS Portal",
       "status": "Done",
       "owner": "Vishnu",
       "type": "Revamp",
       "dateIso": "2026-04-26",
-      "link": "https://f.io/nIZvhyzj",
-      "notes": "Under peer review on 28.04.27"
+      "link": "https://f.io/Y7fBo2im",
+      "notes": "Under peer review on 28.04.26 ( SANJANYA)"
     },
     {
       "name": "JTBD Shorts",
@@ -100,11 +91,20 @@
       "notes": "Making these following shorts: View and Override Employees' Shift Schedule (Shift Roster) \nView Organization Hierarchy (Organization Chart) on greytHR\nProcess Full and Final Settlement for Resigned Employee on greytHR\nCommunicate with Employees using Mass Email or SMS on greytHR\n\"\nMaintain Employee Bonus Register on greytHR\"\n\"\nHow to Manage Employee Income Tax Declaration \"\nDeclare Your Income Tax for 2026 with greytHR ESS Portal\n Employee Directory and Employee Profile Video\nAuto Reminder (Recruit)\nBGV enhancement (Recruit)"
     },
     {
-      "name": "Employee Directory and Employee Profile Video",
+      "name": "Employee Directory Video",
       "status": "YTD",
       "owner": "Vishnu",
       "type": "JTBD",
-      "dateIso": "",
+      "dateIso": "2026-05-06",
+      "link": "",
+      "notes": "Currently, the feature is paused and is scheduled to go live in the second week of May. The script has been under peer review with Nazim on 24.04.2026."
+    },
+    {
+      "name": "Employee Profile Video",
+      "status": "YTD",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-05-06",
       "link": "",
       "notes": "Currently, the feature is paused and is scheduled to go live in the second week of May. The script has been under peer review with Nazim on 24.04.2026."
     },
@@ -631,6 +631,15 @@
       "notes": ""
     },
     {
+      "name": "How to Manage Employee Income Tax Declaration",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-04-20",
+      "link": "https://youtu.be/nYn4N_gpUuQ",
+      "notes": ""
+    },
+    {
       "name": "EIM Short PEV",
       "status": "Closed",
       "owner": "Nazim",
@@ -694,5 +703,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-05-04T04:48:03.234Z"
+  "updatedAt": "2026-05-04T05:48:03.545Z"
 }
