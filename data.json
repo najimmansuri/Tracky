@@ -64,6 +64,15 @@
       "notes": "Script ihas been Aprroved."
     },
     {
+      "name": "Navos Assist Recruit",
+      "status": "WIP",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-05-04",
+      "link": "",
+      "notes": ""
+    },
+    {
       "name": "How to Manage Employee Income Tax Declaration",
       "status": "Done",
       "owner": "Vishnu",
@@ -89,15 +98,6 @@
       "dateIso": "2026-05-03",
       "link": "",
       "notes": "Making these following shorts: View and Override Employees' Shift Schedule (Shift Roster) \nView Organization Hierarchy (Organization Chart) on greytHR\nProcess Full and Final Settlement for Resigned Employee on greytHR\nCommunicate with Employees using Mass Email or SMS on greytHR\n\"\nMaintain Employee Bonus Register on greytHR\"\n\"\nHow to Manage Employee Income Tax Declaration \"\nDeclare Your Income Tax for 2026 with greytHR ESS Portal\n Employee Directory and Employee Profile Video\nAuto Reminder (Recruit)\nBGV enhancement (Recruit)"
-    },
-    {
-      "name": "Navos Assist Recruit",
-      "status": "YTD",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-05-04",
-      "link": "",
-      "notes": ""
     },
     {
       "name": "Employee Directory and Employee Profile Video",
@@ -694,5 +694,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-05-04T03:48:00.989Z"
+  "updatedAt": "2026-05-04T03:58:21.573Z"
 }
