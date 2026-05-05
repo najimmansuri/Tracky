@@ -73,15 +73,6 @@
       "notes": "Under peer review on 28.04.26 ( SANJANYA)"
     },
     {
-      "name": "Auto Reminder (Recruit)",
-      "status": "Done",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "2026-04-29",
-      "link": "https://f.io/qqRzKzfA",
-      "notes": "Navya review completed. Now its under Swarnim review on 30.4.26"
-    },
-    {
       "name": "GeMark Demo",
       "status": "YTD",
       "owner": "Nazim",
@@ -703,6 +694,15 @@
       "notes": ""
     },
     {
+      "name": "Auto Reminder (Recruit)",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-04-29",
+      "link": "",
+      "notes": ""
+    },
+    {
       "name": "Expense",
       "status": "Closed",
       "owner": "Nazim",
@@ -712,5 +712,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-05-05T07:48:09.266Z"
+  "updatedAt": "2026-05-05T08:48:06.981Z"
 }
