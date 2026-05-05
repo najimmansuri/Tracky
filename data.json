@@ -37,24 +37,6 @@
       "notes": "Thejas collecting requirments"
     },
     {
-      "name": "GeMark Demo",
-      "status": "WIP",
-      "owner": "Nazim",
-      "type": "Demo",
-      "dateIso": "2026-04-27",
-      "link": "https://docs.google.com/document/d/1KdnBgn2oBF_1g4_Jb5zUmsPfLML1AzjxFxDBHGGrt00/edit?tab=t.ybqzi2lxuq8o#heading=h.sntdny2c48wl",
-      "notes": "input Pending from Anirudh"
-    },
-    {
-      "name": "Digital Signature (Letter Module)",
-      "status": "WIP",
-      "owner": "Nazim",
-      "type": "PEV",
-      "dateIso": "2026-05-04",
-      "link": "https://docs.google.com/document/d/1bSdEscaQx2c8EdqWJaXbCWNAWJdMFO2MYABgDVp6CDU/edit?usp=sharing",
-      "notes": "Script ihas been Aprroved."
-    },
-    {
       "name": "Navos Assist Recruit",
       "status": "WIP",
       "owner": "Nazim",
@@ -62,6 +44,15 @@
       "dateIso": "2026-05-04",
       "link": "",
       "notes": ""
+    },
+    {
+      "name": "Digital Signature (Letter Module)",
+      "status": "WIP",
+      "owner": "Nazim",
+      "type": "PEV",
+      "dateIso": "2026-05-07",
+      "link": "https://docs.google.com/document/d/1bSdEscaQx2c8EdqWJaXbCWNAWJdMFO2MYABgDVp6CDU/edit?usp=sharing",
+      "notes": "Script ihas been Aprroved."
     },
     {
       "name": "Declare Your Income Tax for 2026 with greytHR ESS Portal",
@@ -73,11 +64,20 @@
       "notes": "Under peer review on 28.04.26 ( SANJANYA)"
     },
     {
+      "name": "GeMark Demo",
+      "status": "YTD",
+      "owner": "Nazim",
+      "type": "Demo",
+      "dateIso": "2026-04-27",
+      "link": "https://docs.google.com/document/d/1KdnBgn2oBF_1g4_Jb5zUmsPfLML1AzjxFxDBHGGrt00/edit?tab=t.ybqzi2lxuq8o#heading=h.sntdny2c48wl",
+      "notes": "input Pending from Anirudh"
+    },
+    {
       "name": "JTBD Shorts",
       "status": "YTD",
       "owner": "Nazim",
       "type": "OT",
-      "dateIso": "2026-05-03",
+      "dateIso": "2026-05-07",
       "link": "",
       "notes": "Making these following shorts: View and Override Employees' Shift Schedule (Shift Roster) \nView Organization Hierarchy (Organization Chart) on greytHR\nProcess Full and Final Settlement for Resigned Employee on greytHR\nCommunicate with Employees using Mass Email or SMS on greytHR\n\"\nMaintain Employee Bonus Register on greytHR\"\n\"\nHow to Manage Employee Income Tax Declaration \"\nDeclare Your Income Tax for 2026 with greytHR ESS Portal\n Employee Directory and Employee Profile Video\nAuto Reminder (Recruit)\nBGV enhancement (Recruit)"
     },
@@ -703,5 +703,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-05-05T03:48:03.404Z"
+  "updatedAt": "2026-05-05T04:48:23.163Z"
 }
