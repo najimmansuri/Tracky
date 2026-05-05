@@ -10,15 +10,6 @@
       "notes": "Sreya has to review it."
     },
     {
-      "name": "Auto Reminder (Recruit)",
-      "status": "In Review",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "2026-04-29",
-      "link": "https://f.io/qqRzKzfA",
-      "notes": "Navya review completed. Now its under Swarnim review on 30.4.26"
-    },
-    {
       "name": "Make UTM Links and Update Youtube Description",
       "status": "WIP",
       "owner": "Nazim",
@@ -52,7 +43,7 @@
       "type": "JTBD",
       "dateIso": "2026-05-06",
       "link": "",
-      "notes": "Currently, the feature is paused and is scheduled to go live in the second week of May. The script has been under peer review with Nazim on 24.04.2026."
+      "notes": "Video WIP"
     },
     {
       "name": "Employee Profile Video",
@@ -61,7 +52,7 @@
       "type": "JTBD",
       "dateIso": "2026-05-06",
       "link": "",
-      "notes": "Currently, the feature is paused and is scheduled to go live in the second week of May. The script has been under peer review with Nazim on 24.04.2026."
+      "notes": "Video WIP"
     },
     {
       "name": "Digital Signature (Letter Module)",
@@ -82,6 +73,15 @@
       "notes": "Under peer review on 28.04.26 ( SANJANYA)"
     },
     {
+      "name": "Auto Reminder (Recruit)",
+      "status": "Done",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-04-29",
+      "link": "https://f.io/qqRzKzfA",
+      "notes": "Navya review completed. Now its under Swarnim review on 30.4.26"
+    },
+    {
       "name": "GeMark Demo",
       "status": "YTD",
       "owner": "Nazim",
@@ -98,6 +98,15 @@
       "dateIso": "2026-05-07",
       "link": "",
       "notes": "Making these following shorts: View and Override Employees' Shift Schedule (Shift Roster) \nView Organization Hierarchy (Organization Chart) on greytHR\nProcess Full and Final Settlement for Resigned Employee on greytHR\nCommunicate with Employees using Mass Email or SMS on greytHR\n\"\nMaintain Employee Bonus Register on greytHR\"\n\"\nHow to Manage Employee Income Tax Declaration \"\nDeclare Your Income Tax for 2026 with greytHR ESS Portal\n Employee Directory and Employee Profile Video\nAuto Reminder (Recruit)\nBGV enhancement (Recruit)"
+    },
+    {
+      "name": "April Newsletter",
+      "status": "YTD",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-05-07",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "BGV enhancement (Recruit)",
@@ -703,5 +712,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-05-05T06:47:58.953Z"
+  "updatedAt": "2026-05-05T07:48:09.266Z"
 }
