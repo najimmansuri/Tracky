@@ -15,7 +15,7 @@
       "owner": "Vishnu",
       "type": "JTBD",
       "dateIso": "2026-04-29",
-      "link": "",
+      "link": "https://f.io/qqRzKzfA",
       "notes": "Navya review completed. Now its under Swarnim review on 30.4.26"
     },
     {
@@ -44,6 +44,24 @@
       "dateIso": "2026-05-04",
       "link": "",
       "notes": ""
+    },
+    {
+      "name": "Employee Directory Video",
+      "status": "WIP",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-05-06",
+      "link": "",
+      "notes": "Currently, the feature is paused and is scheduled to go live in the second week of May. The script has been under peer review with Nazim on 24.04.2026."
+    },
+    {
+      "name": "Employee Profile Video",
+      "status": "WIP",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-05-06",
+      "link": "",
+      "notes": "Currently, the feature is paused and is scheduled to go live in the second week of May. The script has been under peer review with Nazim on 24.04.2026."
     },
     {
       "name": "Digital Signature (Letter Module)",
@@ -89,24 +107,6 @@
       "dateIso": "",
       "link": "",
       "notes": "On Hold. Currently this is not available as it is in dev merge process."
-    },
-    {
-      "name": "Employee Directory Video",
-      "status": "YTD",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "2026-05-06",
-      "link": "https://f.io/qqRzKzfA",
-      "notes": "Currently, the feature is paused and is scheduled to go live in the second week of May. The script has been under peer review with Nazim on 24.04.2026."
-    },
-    {
-      "name": "Employee Profile Video",
-      "status": "YTD",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "2026-05-06",
-      "link": "",
-      "notes": "Currently, the feature is paused and is scheduled to go live in the second week of May. The script has been under peer review with Nazim on 24.04.2026."
     },
     {
       "name": "Manage Team's Attendance Requests on greytHR's ESS Portal",
@@ -703,5 +703,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-05-05T05:48:04.507Z"
+  "updatedAt": "2026-05-05T06:47:58.953Z"
 }
