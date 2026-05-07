@@ -10,6 +10,15 @@
       "notes": "Sreya has to review it."
     },
     {
+      "name": "Employee Directory Video",
+      "status": "In Review",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-05-06",
+      "link": "https://f.io/Jy_rI3so",
+      "notes": "Under pm review on 07.05.26 ( ASHWIN)"
+    },
+    {
       "name": "Employee Profile Video",
       "status": "In Review",
       "owner": "Vishnu",
@@ -46,15 +55,6 @@
       "notes": ""
     },
     {
-      "name": "Employee Directory Video",
-      "status": "WIP",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "2026-05-06",
-      "link": "",
-      "notes": ""
-    },
-    {
       "name": "Digital Signature (Letter Module)",
       "status": "WIP",
       "owner": "Nazim",
@@ -62,6 +62,15 @@
       "dateIso": "2026-05-07",
       "link": "https://docs.google.com/document/d/1bSdEscaQx2c8EdqWJaXbCWNAWJdMFO2MYABgDVp6CDU/edit?usp=sharing",
       "notes": "Script ihas been Aprroved."
+    },
+    {
+      "name": "April Newsletter",
+      "status": "WIP",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-05-07",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "Declare Your Income Tax for 2026 with greytHR ESS Portal",
@@ -89,15 +98,6 @@
       "dateIso": "2026-05-07",
       "link": "",
       "notes": "Making these following shorts: View and Override Employees' Shift Schedule (Shift Roster) \nView Organization Hierarchy (Organization Chart) on greytHR\nProcess Full and Final Settlement for Resigned Employee on greytHR\nCommunicate with Employees using Mass Email or SMS on greytHR\n\"\nMaintain Employee Bonus Register on greytHR\"\n\"\nHow to Manage Employee Income Tax Declaration \"\nDeclare Your Income Tax for 2026 with greytHR ESS Portal\n Employee Directory and Employee Profile Video\nAuto Reminder (Recruit)\nBGV enhancement (Recruit)"
-    },
-    {
-      "name": "April Newsletter",
-      "status": "YTD",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "2026-05-07",
-      "link": "",
-      "notes": ""
     },
     {
       "name": "BGV enhancement (Recruit)",
@@ -712,5 +712,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-05-07T11:47:58.752Z"
+  "updatedAt": "2026-05-07T12:48:07.567Z"
 }
