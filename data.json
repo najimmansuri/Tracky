@@ -68,7 +68,7 @@
       "status": "WIP",
       "owner": "Vishnu",
       "type": "JTBD",
-      "dateIso": "2026-05-07",
+      "dateIso": "2026-05-10",
       "link": "",
       "notes": ""
     },
@@ -699,7 +699,7 @@
       "owner": "Vishnu",
       "type": "JTBD",
       "dateIso": "2026-04-29",
-      "link": "",
+      "link": "https://youtu.be/d07_1cYPRX8",
       "notes": ""
     },
     {
@@ -712,5 +712,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-05-11T05:48:01.335Z"
+  "updatedAt": "2026-05-11T06:47:58.246Z"
 }
