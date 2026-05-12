@@ -64,6 +64,15 @@
       "notes": "Script ihas been Aprroved."
     },
     {
+      "name": "BGV enhancement (Recruit)",
+      "status": "",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "",
+      "link": "",
+      "notes": "On Hold. Currently this is not available as it is in dev merge process."
+    },
+    {
       "name": "Declare Your Income Tax for 2026 with greytHR ESS Portal",
       "status": "Done",
       "owner": "Vishnu",
@@ -78,8 +87,8 @@
       "owner": "Vishnu",
       "type": "JTBD",
       "dateIso": "2026-05-10",
-      "link": "",
-      "notes": ""
+      "link": "https://f.io/d47xvKaQ",
+      "notes": "Under peer review on 12.05.26 ( Sanjukta & Sanjanya)"
     },
     {
       "name": "GeMark Demo",
@@ -98,15 +107,6 @@
       "dateIso": "2026-05-07",
       "link": "",
       "notes": "Making these following shorts: View and Override Employees' Shift Schedule (Shift Roster) \nView Organization Hierarchy (Organization Chart) on greytHR\nProcess Full and Final Settlement for Resigned Employee on greytHR\nCommunicate with Employees using Mass Email or SMS on greytHR\n\"\nMaintain Employee Bonus Register on greytHR\"\n\"\nHow to Manage Employee Income Tax Declaration \"\nDeclare Your Income Tax for 2026 with greytHR ESS Portal\n Employee Directory and Employee Profile Video\nAuto Reminder (Recruit)\nBGV enhancement (Recruit)"
-    },
-    {
-      "name": "BGV enhancement (Recruit)",
-      "status": "YTD",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "",
-      "link": "",
-      "notes": "On Hold. Currently this is not available as it is in dev merge process."
     },
     {
       "name": "Manage Team's Attendance Requests on greytHR's ESS Portal",
@@ -712,5 +712,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-05-12T04:47:58.383Z"
+  "updatedAt": "2026-05-12T05:48:04.702Z"
 }
