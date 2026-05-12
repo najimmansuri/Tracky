@@ -64,15 +64,6 @@
       "notes": "Script ihas been Aprroved."
     },
     {
-      "name": "April Newsletter",
-      "status": "WIP",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "2026-05-10",
-      "link": "",
-      "notes": ""
-    },
-    {
       "name": "Declare Your Income Tax for 2026 with greytHR ESS Portal",
       "status": "Done",
       "owner": "Vishnu",
@@ -80,6 +71,15 @@
       "dateIso": "2026-04-26",
       "link": "https://f.io/Y7fBo2im",
       "notes": "Peer review Completed.Under Avinash Review on 07.05.26"
+    },
+    {
+      "name": "April Newsletter",
+      "status": "Done",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-05-10",
+      "link": "",
+      "notes": ""
     },
     {
       "name": "GeMark Demo",
@@ -712,5 +712,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-05-12T03:47:59.296Z"
+  "updatedAt": "2026-05-12T04:47:58.383Z"
 }
