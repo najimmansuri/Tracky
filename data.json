@@ -64,15 +64,6 @@
       "notes": "Script ihas been Aprroved."
     },
     {
-      "name": "BGV enhancement (Recruit)",
-      "status": "",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "",
-      "link": "",
-      "notes": "On Hold. Currently this is not available as it is in dev merge process."
-    },
-    {
       "name": "Manage Team's Attendance Requests on greytHR's ESS Portal",
       "status": "WIP",
       "owner": "Vishnu",
@@ -91,22 +82,13 @@
       "notes": ""
     },
     {
-      "name": "Declare Your Income Tax for 2026 with greytHR ESS Portal",
-      "status": "Done",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-04-26",
-      "link": "https://f.io/Y7fBo2im",
-      "notes": "Peer review Completed.Under Avinash Review on 07.05.26"
-    },
-    {
-      "name": "April Newsletter",
-      "status": "Done",
+      "name": "BGV enhancement (Recruit)",
+      "status": "",
       "owner": "Vishnu",
       "type": "JTBD",
-      "dateIso": "2026-05-10",
-      "link": "https://f.io/d47xvKaQ",
-      "notes": "Under peer review on 12.05.26 ( Sanjukta & Sanjanya)"
+      "dateIso": "",
+      "link": "",
+      "notes": "On Hold. Currently this is not available as it is in dev merge process."
     },
     {
       "name": "GeMark Demo",
@@ -694,12 +676,30 @@
       "notes": ""
     },
     {
+      "name": "Declare Your Income Tax for 2026 with greytHR ESS Portal",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-04-26",
+      "link": "https://f.io/Y7fBo2im",
+      "notes": "Peer review Completed.Under Avinash Review on 07.05.26"
+    },
+    {
       "name": "Auto Reminder (Recruit)",
       "status": "Closed",
       "owner": "Vishnu",
       "type": "JTBD",
       "dateIso": "2026-04-29",
       "link": "https://youtu.be/d07_1cYPRX8",
+      "notes": ""
+    },
+    {
+      "name": "April Newsletter",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-05-10",
+      "link": "https://youtu.be/7UT54eACQEk",
       "notes": ""
     },
     {
@@ -712,5 +712,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-05-13T06:47:59.300Z"
+  "updatedAt": "2026-05-13T07:47:58.195Z"
 }
