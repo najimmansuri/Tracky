@@ -46,15 +46,6 @@
       "notes": "Script ihas been Aprroved."
     },
     {
-      "name": "Manage Team's Attendance Requests on greytHR's ESS Portal",
-      "status": "WIP",
-      "owner": "Vishnu",
-      "type": "Revamp",
-      "dateIso": "2026-05-14",
-      "link": "",
-      "notes": ""
-    },
-    {
       "name": "Declare FBP on Behalf of an Employee using greytHR",
       "status": "WIP",
       "owner": "Vishnu",
@@ -71,6 +62,15 @@
       "dateIso": "",
       "link": "",
       "notes": "On Hold. Currently this is not available as it is in dev merge process."
+    },
+    {
+      "name": "Manage Team's Attendance Requests on greytHR's ESS Portal",
+      "status": "Done",
+      "owner": "Vishnu",
+      "type": "Revamp",
+      "dateIso": "2026-05-14",
+      "link": "https://f.io/BIvCSvdo",
+      "notes": "Under peer review on 14.03.26"
     },
     {
       "name": "GeMark Demo",
@@ -712,5 +712,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-05-14T11:48:10.571Z"
+  "updatedAt": "2026-05-14T12:47:56.860Z"
 }
