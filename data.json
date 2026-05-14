@@ -10,24 +10,6 @@
       "notes": "Sreya has to review it."
     },
     {
-      "name": "Employee Directory Video",
-      "status": "In Review",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "2026-05-06",
-      "link": "https://f.io/Jy_rI3so",
-      "notes": "Under pm review on 07.05.26 ( ASHWIN)"
-    },
-    {
-      "name": "Employee Profile Video",
-      "status": "In Review",
-      "owner": "Vishnu",
-      "type": "JTBD",
-      "dateIso": "2026-05-06",
-      "link": "https://f.io/bW9BE_aA",
-      "notes": "Under pm review on 06.05.26 ( ASHWIN)"
-    },
-    {
       "name": "Make UTM Links and Update Youtube Description",
       "status": "WIP",
       "owner": "Nazim",
@@ -682,7 +664,7 @@
       "type": "Revamp",
       "dateIso": "2026-04-26",
       "link": "https://f.io/Y7fBo2im",
-      "notes": "Peer review Completed.Under Avinash Review on 07.05.26"
+      "notes": ""
     },
     {
       "name": "Auto Reminder (Recruit)",
@@ -691,6 +673,24 @@
       "type": "JTBD",
       "dateIso": "2026-04-29",
       "link": "https://youtu.be/d07_1cYPRX8",
+      "notes": ""
+    },
+    {
+      "name": "Employee Directory Video",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-05-06",
+      "link": "https://youtu.be/CDWlqr2fYBM",
+      "notes": ""
+    },
+    {
+      "name": "Employee Profile Video",
+      "status": "Closed",
+      "owner": "Vishnu",
+      "type": "JTBD",
+      "dateIso": "2026-05-06",
+      "link": "https://youtu.be/GJxM61iXCSU",
       "notes": ""
     },
     {
@@ -712,5 +712,5 @@
       "notes": "\"Brand is still working on the video using our video as  a base\""
     }
   ],
-  "updatedAt": "2026-05-14T06:47:58.008Z"
+  "updatedAt": "2026-05-14T07:48:02.829Z"
 }
